@@ -13,99 +13,120 @@
 
 // Custom Theming
 // ---------------------------------------------------
+$white: #fff;
+$font-weight-bold: 700;
 // primary colors
-$janitor_blue: #0045f5;
+$janitor-blue: #0045f5;
 $azure: #4d7df8;
 $lavender: #c0d2ff;
-$alice_blue: #eff4fe;
-$ice_blue: #eff4fe;
+$alice-blue: #eff4fe;
+$ice-blue: #eff4fe;
 
 // status colors
-$status_red: #f84a74;
-$status_yellow: #ffbc19;
-$status_green: #8edc8c;
-$status_blue: #00c0ef;
-$status_orange: #ff9922;
+$status-red: #f84a74;
+$status-yellow: #ffbc19;
+$status-green: #8edc8c;
+$status-blue: #00c0ef;
+$status-orange: #f92;
 
 // accent colors
-$accent_sepia: #6b4700;
-$accent_royal_blue: #001b6b;
-$accent_tyrian_purple: #6b0050;
-$accent_indigo: #50006b;
-$accent_jungle_green: #006b6b;
-$accent_blue_sapphire: #00476b;
+$accent-sepia: #6b4700;
+$accent-royal-blue: #001b6b;
+$accent-tyrian-purple: #6b0050;
+$accent-indigo: #50006b;
+$accent-jungle-green: #006b6b;
+$accent-blue-sapphire: #00476b;
 
 // action colors
-$action_red: #ca0534;
-$action_green: #1ea97f;
+$action-red: #ca0534;
+$action-green: #1ea97f;
 
 // other colors
-$oxford_blue: #001240;
-$slate_gray: #797d89;
-$light_gray: #d2d5de;
+$oxford-blue: #001240;
+$slate-gray: #797d89;
+$light-gray: #d2d5de;
 $platin: #f5f5f5;
 
 h1 {
   font-size: 30pt;
-  font-weight: bold;
+  font-weight: $font-weight-bold;
 }
 
 h2 {
   font-size: 24pt;
-  font-weight: bold;
+  font-weight: $font-weight-bold;
 }
 
 h3 {
   font-size: 18pt;
-  font-weight: bold;
+  font-weight: $font-weight-bold;
 }
 
 .btn {
-  font-size: 14pt;
-  font-weight: bold;
+  border-radius: 6pt;
 }
 
 .btn-primary {
-  color: white;
-  background-color: $janitor_blue;
+  color: $white;
+  background-color: $janitor-blue;
+  font-size: 14pt;
+  font-weight: $font-weight-bold;
+  border: none;
 
-  :hover {
-    color: white;
-    background-color: $janitor_blue;
-    filter: brightness(0.9);
+  &:hover,
+  &:focus,
+  &:active {
+    color: $white !important;
+    background-color: $janitor-blue !important;
+    filter: brightness(0.9) !important;
   }
 }
 
 .btn-secondary {
-  color: $janitor_blue;
+  color: $janitor-blue;
   background-color: $lavender;
+  font-size: 14pt;
+  font-weight: $font-weight-bold;
+  border: none;
 
-  :hover {
-    color: $janitor_blue;
-    background-color: $lavender;
-    filter: brightness(0.9);
+  &:hover,
+  &:focus,
+  &:active {
+    color: $janitor-blue !important;
+    background-color: $lavender !important;
+    filter: brightness(0.9) !important;
   }
 }
 
 .btn-success {
-  color: white;
-  background-color: $action_green;
+  color: $white;
+  background-color: $action-green;
+  font-size: 14pt;
+  font-weight: $font-weight-bold;
+  border: none;
 
-  :hover {
-    color: white;
-    background-color: $action_green;
-    filter: brightness(0.9);
+  &:hover,
+  &:focus,
+  &:active {
+    color: $white !important;
+    background-color: $action-green !important;
+    filter: brightness(0.9) !important;
   }
 }
 
 .btn-danger {
-  color: white;
-  background-color: $action_red;
+  color: $white;
+  background-color: $action-red;
+  font-size: 14pt;
+  font-weight: $font-weight-bold;
+  border: none;
 
-  :hover {
-    color: white;
-    background-color: $action_red;
-    filter: brightness(0.9);
+  &:hover,
+  &:focus,
+  &:active {
+    color: $white !important;
+    background-color: $action-red !important;
+    filter: brightness(0.9) !important;
   }
 }
 
