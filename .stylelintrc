@@ -1,7 +1,5 @@
 {
-  "extends": [
-    "stylelint-config-twbs-bootstrap"
-  ],
+  "extends": ["stylelint-config-twbs-bootstrap"],
   "rules": {
     "declaration-no-important": null,
     "order/properties-order": null,
@@ -11,6 +9,7 @@
     "selector-max-id": null,
     "selector-max-specificity": null,
     "selector-max-type": null,
-    "selector-no-qualifying-type": null
+    "selector-no-qualifying-type": null,
+    "number-leading-zero": null
   }
 }

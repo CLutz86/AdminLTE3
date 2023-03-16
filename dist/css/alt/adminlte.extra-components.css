@@ -5,7 +5,7 @@
  *   Website: AdminLTE.io <https://adminlte.io>
  *   License: Open source - MIT <https://opensource.org/licenses/MIT>
  */
-@-webkit-keyframes flipInX {
+@-webkit-keyframes flip-in-x {
   0% {
     -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
     transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
@@ -31,7 +31,7 @@
     transform: perspective(400px);
   }
 }
-@keyframes flipInX {
+@keyframes flip-in-x {
   0% {
     -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
     transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
@@ -58,7 +58,7 @@
   }
 }
 
-@-webkit-keyframes fadeIn {
+@-webkit-keyframes fade-in {
   from {
     opacity: 0;
   }
@@ -67,7 +67,7 @@
   }
 }
 
-@keyframes fadeIn {
+@keyframes fade-in {
   from {
     opacity: 0;
   }
@@ -76,7 +76,7 @@
   }
 }
 
-@-webkit-keyframes fadeOut {
+@-webkit-keyframes fade-out {
   from {
     opacity: 1;
   }
@@ -85,7 +85,7 @@
   }
 }
 
-@keyframes fadeOut {
+@keyframes fade-out {
   from {
     opacity: 1;
   }
@@ -690,6 +690,8 @@
   margin-bottom: 15px;
   margin-right: 10px;
   position: relative;
+  /* stylelint-disable selector-class-pattern */
+  /* stylelint-enable selector-class-pattern */
 }
 
 .timeline > div::before, .timeline > div::after {
@@ -1078,13 +1080,13 @@
 }
 
 .direct-chat-primary .right > .direct-chat-text {
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #0045f5;
+  border-color: #0045f5;
   color: #fff;
 }
 
 .direct-chat-primary .right > .direct-chat-text::after, .direct-chat-primary .right > .direct-chat-text::before {
-  border-left-color: #007bff;
+  border-left-color: #0045f5;
 }
 
 .direct-chat-secondary .right > .direct-chat-text {
@@ -1098,13 +1100,13 @@
 }
 
 .direct-chat-success .right > .direct-chat-text {
-  background-color: #28a745;
-  border-color: #28a745;
+  background-color: #1ea97f;
+  border-color: #1ea97f;
   color: #fff;
 }
 
 .direct-chat-success .right > .direct-chat-text::after, .direct-chat-success .right > .direct-chat-text::before {
-  border-left-color: #28a745;
+  border-left-color: #1ea97f;
 }
 
 .direct-chat-info .right > .direct-chat-text {
@@ -1128,13 +1130,13 @@
 }
 
 .direct-chat-danger .right > .direct-chat-text {
-  background-color: #dc3545;
-  border-color: #dc3545;
+  background-color: #ca0534;
+  border-color: #ca0534;
   color: #fff;
 }
 
 .direct-chat-danger .right > .direct-chat-text::after, .direct-chat-danger .right > .direct-chat-text::before {
-  border-left-color: #dc3545;
+  border-left-color: #ca0534;
 }
 
 .direct-chat-light .right > .direct-chat-text {

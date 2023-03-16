@@ -11,6 +11,219 @@
 @import "bootstrap-variables";
 @import "~bootstrap/scss/bootstrap";
 
+// Custom Theming
+// ---------------------------------------------------
+$white: #fff;
+$font-weight-bold: 700;
+// primary colors
+$janitor-blue: #0045f5;
+$azure: #4d7df8;
+$lavender: #c0d2ff;
+$alice-blue: #eff4fe;
+$ice-blue: #eff4fe;
+
+// status colors
+$status-red: #f84a74;
+$status-yellow: #ffbc19;
+$status-green: #8edc8c;
+$status-blue: #00c0ef;
+$status-orange: #f92;
+
+// accent colors
+$accent-sepia: #6b4700;
+$accent-royal-blue: #001b6b;
+$accent-tyrian-purple: #6b0050;
+$accent-indigo: #50006b;
+$accent-jungle-green: #006b6b;
+$accent-blue-sapphire: #00476b;
+
+// action colors
+$action-red: #ca0534;
+$action-green: #1ea97f;
+
+// other colors
+$oxford-blue: #001240;
+$slate-gray: #797d89;
+$light-gray: #d2d5de;
+$platin: #f5f5f5;
+
+// border radius for buttons, inputs etc
+$border-radius: 6pt;
+
+// adjust heading's font size
+h1 {
+  font-size: 30pt;
+  font-weight: $font-weight-bold;
+}
+
+h2 {
+  font-size: 24pt;
+  font-weight: $font-weight-bold;
+}
+
+h3 {
+  font-size: 18pt;
+  font-weight: $font-weight-bold;
+}
+
+// buttons
+.btn {
+  border-radius: $border-radius !important;
+}
+
+.btn-primary {
+  color: $white;
+  font-size: 14pt;
+  font-weight: $font-weight-bold;
+  border: none;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $white !important;
+    filter: brightness(0.9) !important;
+  }
+}
+
+.btn-secondary {
+  color: $janitor-blue;
+  background-color: $lavender;
+  font-size: 14pt;
+  font-weight: $font-weight-bold;
+  border: none;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $janitor-blue !important;
+    background-color: $lavender !important;
+    filter: brightness(0.9) !important;
+  }
+}
+
+.btn-success {
+  color: $white;
+  font-size: 14pt;
+  font-weight: $font-weight-bold;
+  border: none;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $white !important;
+    filter: brightness(0.9) !important;
+  }
+}
+
+.btn-danger {
+  color: $white;
+  font-size: 14pt;
+  font-weight: $font-weight-bold;
+  border: none;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $white !important;
+    filter: brightness(0.9) !important;
+  }
+}
+
+// forms
+// checkboxes
+input[type="checkbox"] {
+  accent-color: $janitor-blue;
+}
+
+// radio buttons
+input[type="radio"] {
+  accent-color: $janitor-blue;
+}
+
+// text inputs
+input,
+.form-control {
+  border-radius: $border-radius !important;
+  border-color: $slate-gray !important;
+
+  &:hover,
+  &:focus,
+  &:active {
+    border-color: $azure !important;
+  }
+
+  // inputs with input group prepends & appends
+  .input-group-prepend ~ & {
+    border-radius: 0 $border-radius $border-radius 0 !important;
+    border-left: 0;
+  }
+
+  &:has(~ .input-group-append) {
+    border-radius: $border-radius 0 0 $border-radius !important;
+    border-right: 0;
+  }
+
+  .input-group-prepend ~ &:has(~ .input-group-append) {
+    border-radius: 0 !important;
+  }
+}
+
+// input groups texts & buttons
+.input-group-text {
+  background-color: transparent;
+  border-color: $slate-gray;
+}
+
+.input-group-append {
+  > .input-group-text,
+  > .btn {
+    border-radius: 0 $border-radius $border-radius 0 !important;
+    border-left: 0;
+  }
+}
+
+.input-group-prepend {
+  > .input-group-text,
+  > .btn {
+    border-radius: $border-radius 0 0 $border-radius !important;
+    border-right: 0;
+  }
+}
+
+// buttons inside input groups
+.input-group button {
+  font-size: 12pt;
+}
+
+.input-group i.fas {
+  color: $janitor-blue;
+}
+
+// sidebar
+.main-sidebar {
+  background-color: $oxford-blue !important;
+
+  .nav-link:focus,
+  .nav-link:hover,
+  .nav-item:hover > .nav-link {
+    background-color: transparent !important;
+    color: $white !important;
+  }
+
+  .nav-item:hover > .nav-link.active {
+    color: $status-yellow !important;
+  }
+
+  .nav-link.active {
+    background-color: transparent !important;
+    color: $status-yellow !important;
+
+    &:hover {
+      color: $status-yellow !important;
+    }
+  }
+}
+
 // Variables and Mixins
 // ---------------------------------------------------
 @import "variables";
