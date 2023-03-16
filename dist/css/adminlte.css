@@ -10519,6 +10519,30 @@ input:has(~ .input-group-append),
   color: #0045f5;
 }
 
+.main-sidebar {
+  background-color: #001240 !important;
+}
+
+.main-sidebar .nav-link:focus,
+.main-sidebar .nav-link:hover,
+.main-sidebar .nav-item:hover > .nav-link {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+.main-sidebar .nav-item:hover > .nav-link.active {
+  color: #ffbc19 !important;
+}
+
+.main-sidebar .nav-link.active {
+  background-color: transparent !important;
+  color: #ffbc19 !important;
+}
+
+.main-sidebar .nav-link.active:hover {
+  color: #ffbc19 !important;
+}
+
 @-webkit-keyframes flip-in-x {
   0% {
     -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);

@@ -199,6 +199,31 @@ input,
   color: $janitor-blue;
 }
 
+// sidebar
+.main-sidebar {
+  background-color: $oxford-blue !important;
+
+  .nav-link:focus,
+  .nav-link:hover,
+  .nav-item:hover > .nav-link {
+    background-color: transparent !important;
+    color: $white !important;
+  }
+
+  .nav-item:hover > .nav-link.active {
+    color: $status-yellow !important;
+  }
+
+  .nav-link.active {
+    background-color: transparent !important;
+    color: $status-yellow !important;
+
+    &:hover {
+      color: $status-yellow !important;
+    }
+  }
+}
+
 // Variables and Mixins
 // ---------------------------------------------------
 @import "variables";
