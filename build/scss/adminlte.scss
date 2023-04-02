@@ -75,6 +75,23 @@ h4 {
   color: $oxford-blue;
 }
 
+// custom status classes
+.status-red {
+  color: $status-red;
+}
+.status-yellow {
+  color: $status-yellow;
+}
+.status-green {
+  color: $status-green;
+}
+.status-blue {
+  color: $status-blue;
+}
+.status-orange {
+  color: $status-orange;
+}
+
 // buttons
 .btn {
   border-radius: $border-radius !important;
