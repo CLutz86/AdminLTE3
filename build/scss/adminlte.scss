@@ -54,16 +54,25 @@ $border-radius: 6pt;
 h1 {
   font-size: 30pt;
   font-weight: $font-weight-bold;
+  color: $oxford-blue;
 }
 
 h2 {
   font-size: 24pt;
   font-weight: $font-weight-bold;
+  color: $oxford-blue;
 }
 
 h3 {
   font-size: 18pt;
   font-weight: $font-weight-bold;
+  color: $oxford-blue;
+}
+
+h4 {
+  font-size: 16pt;
+  font-weight: $font-weight-bold;
+  color: $oxford-blue;
 }
 
 // buttons
@@ -222,6 +231,11 @@ input,
       color: $status-yellow !important;
     }
   }
+}
+
+// cards
+.card {
+  border-radius: 12px !important;
 }
 
 // Variables and Mixins
