@@ -10386,16 +10386,45 @@ a.text-dark:hover, a.text-dark:focus {
 h1 {
   font-size: 30pt;
   font-weight: 700;
+  color: #001240;
 }
 
 h2 {
   font-size: 24pt;
   font-weight: 700;
+  color: #001240;
 }
 
 h3 {
   font-size: 18pt;
   font-weight: 700;
+  color: #001240;
+}
+
+h4 {
+  font-size: 16pt;
+  font-weight: 700;
+  color: #001240;
+}
+
+.status-red {
+  color: #f84a74;
+}
+
+.status-yellow {
+  color: #ffbc19;
+}
+
+.status-green {
+  color: #8edc8c;
+}
+
+.status-blue {
+  color: #00c0ef;
+}
+
+.status-orange {
+  color: #f92;
 }
 
 .btn {
@@ -10541,6 +10570,10 @@ input:has(~ .input-group-append),
 
 .main-sidebar .nav-link.active:hover {
   color: #ffbc19 !important;
+}
+
+.card {
+  border-radius: 12px !important;
 }
 
 @-webkit-keyframes flip-in-x {
