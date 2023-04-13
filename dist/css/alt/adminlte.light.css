@@ -10391,25 +10391,25 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 h1 {
-  font-size: 30pt;
+  font-size: 30px;
   font-weight: 700;
   color: #001240;
 }
 
 h2 {
-  font-size: 24pt;
+  font-size: 24px;
   font-weight: 700;
   color: #001240;
 }
 
 h3 {
-  font-size: 18pt;
+  font-size: 18px;
   font-weight: 700;
   color: #001240;
 }
 
 h4 {
-  font-size: 16pt;
+  font-size: 16px;
   font-weight: 700;
   color: #001240;
 }
@@ -10434,13 +10434,37 @@ h4 {
   color: #f92;
 }
 
+.accent-sepia {
+  background-color: #6b4700;
+}
+
+.accent-royal-blue {
+  background-color: #001b6b;
+}
+
+.accent-tyrian-purple {
+  background-color: #6b0050;
+}
+
+.accent-indigo {
+  background-color: #50006b;
+}
+
+.accent-jungle-green {
+  background-color: #006b6b;
+}
+
+.accent-blue-sapphire {
+  background-color: #00476b;
+}
+
 .btn {
-  border-radius: 6pt !important;
+  border-radius: 6px !important;
 }
 
 .btn-primary {
   color: #fff;
-  font-size: 14pt;
+  font-size: 14px;
   font-weight: 700;
   border: none;
 }
@@ -10454,7 +10478,7 @@ h4 {
 .btn-secondary {
   color: #0045f5;
   background-color: #c0d2ff;
-  font-size: 14pt;
+  font-size: 14px;
   font-weight: 700;
   border: none;
 }
@@ -10468,7 +10492,7 @@ h4 {
 
 .btn-success {
   color: #fff;
-  font-size: 14pt;
+  font-size: 14px;
   font-weight: 700;
   border: none;
 }
@@ -10481,7 +10505,7 @@ h4 {
 
 .btn-danger {
   color: #fff;
-  font-size: 14pt;
+  font-size: 14px;
   font-weight: 700;
   border: none;
 }
@@ -10502,7 +10526,7 @@ input[type="radio"] {
 
 input,
 .form-control {
-  border-radius: 6pt !important;
+  border-radius: 6px !important;
   border-color: #797d89 !important;
 }
 
@@ -10515,13 +10539,13 @@ input:hover, input:focus, input:active,
 
 .input-group-prepend ~ input, .input-group-prepend ~
 .form-control {
-  border-radius: 0 6pt 6pt 0 !important;
+  border-radius: 0 6px 6px 0 !important;
   border-left: 0;
 }
 
 input:has(~ .input-group-append),
 .form-control:has(~ .input-group-append) {
-  border-radius: 6pt 0 0 6pt !important;
+  border-radius: 6px 0 0 6px !important;
   border-right: 0;
 }
 
@@ -10537,18 +10561,18 @@ input:has(~ .input-group-append),
 
 .input-group-append > .input-group-text,
 .input-group-append > .btn {
-  border-radius: 0 6pt 6pt 0 !important;
+  border-radius: 0 6px 6px 0 !important;
   border-left: 0;
 }
 
 .input-group-prepend > .input-group-text,
 .input-group-prepend > .btn {
-  border-radius: 6pt 0 0 6pt !important;
+  border-radius: 6px 0 0 6px !important;
   border-right: 0;
 }
 
 .input-group button {
-  font-size: 12pt;
+  font-size: 12px;
 }
 
 .input-group i.fas {
@@ -22775,8 +22799,8 @@ html.maximized-card {
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
   padding: 0.75rem 1.25rem;
   position: relative;
-  border-top-left-radius: 6pt;
-  border-top-right-radius: 6pt;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
 }
 
 .collapsed-card .card-header {
@@ -23646,7 +23670,7 @@ html.maximized-card {
 }
 
 .callout {
-  border-radius: 6pt;
+  border-radius: 6px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   background-color: #fff;
   border-left: 5px solid #e9ecef;
@@ -24044,7 +24068,7 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
 }
 
 .small-box {
-  border-radius: 6pt;
+  border-radius: 6px;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
   display: block;
   margin-bottom: 20px;
@@ -24179,7 +24203,7 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
 
 .info-box {
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
-  border-radius: 6pt;
+  border-radius: 6px;
   background-color: #fff;
   display: -ms-flexbox;
   display: flex;
@@ -24201,7 +24225,7 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
 }
 
 .info-box .info-box-icon {
-  border-radius: 6pt;
+  border-radius: 6px;
   -ms-flex-align: center;
   align-items: center;
   display: -ms-flexbox;
@@ -24383,7 +24407,7 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
 }
 
 .timeline::before {
-  border-radius: 6pt;
+  border-radius: 6px;
   background-color: #dee2e6;
   bottom: 0;
   content: "";
@@ -24409,7 +24433,7 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
 
 .timeline > div > .timeline-item {
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
-  border-radius: 6pt;
+  border-radius: 6px;
   background-color: #fff;
   color: #495057;
   margin-left: 60px;
@@ -24507,7 +24531,7 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
 }
 
 .products-list > .item {
-  border-radius: 6pt;
+  border-radius: 6px;
   background-color: #fff;
   padding: 10px 0;
 }
@@ -25075,8 +25099,8 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
 }
 
 .widget-user .widget-user-header {
-  border-top-left-radius: 6pt;
-  border-top-right-radius: 6pt;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
   height: 135px;
   padding: 1rem;
   text-align: center;
@@ -25112,8 +25136,8 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
 }
 
 .widget-user-2 .widget-user-header {
-  border-top-left-radius: 6pt;
-  border-top-right-radius: 6pt;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
   padding: 1rem;
 }
 
@@ -25395,9 +25419,9 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
 .login-card-body .input-group .input-group-text,
 .register-card-body .input-group .input-group-text {
   background-color: transparent;
-  border-bottom-right-radius: 6pt;
+  border-bottom-right-radius: 6px;
   border-left: 0;
-  border-top-right-radius: 6pt;
+  border-top-right-radius: 6px;
   color: #777;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -25904,7 +25928,7 @@ body.iframe-mode-fullscreen .content-wrapper.iframe-mode {
 
 .external-event {
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
-  border-radius: 6pt;
+  border-radius: 6px;
   cursor: move;
   font-weight: 700;
   margin-bottom: 4px;
@@ -32410,7 +32434,7 @@ select.form-control-sm ~ .select2-container--default .select2-selection--multipl
 }
 
 .img-rounded {
-  border-radius: 6pt;
+  border-radius: 6px;
 }
 
 .img-circle {
@@ -32505,7 +32529,7 @@ select.form-control-sm ~ .select2-container--default .select2-selection--multipl
 .overlay-wrapper .overlay,
 .info-box .overlay,
 .small-box .overlay {
-  border-radius: 6pt;
+  border-radius: 6px;
   -ms-flex-align: center;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.7);
