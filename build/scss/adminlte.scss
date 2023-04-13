@@ -48,29 +48,29 @@ $light-gray: #d2d5de;
 $platin: #f5f5f5;
 
 // border radius for buttons, inputs etc
-$border-radius: 6pt;
+$border-radius: 6px;
 
 // adjust heading's font size
 h1 {
-  font-size: 30pt;
+  font-size: 30px;
   font-weight: $font-weight-bold;
   color: $oxford-blue;
 }
 
 h2 {
-  font-size: 24pt;
+  font-size: 24px;
   font-weight: $font-weight-bold;
   color: $oxford-blue;
 }
 
 h3 {
-  font-size: 18pt;
+  font-size: 18px;
   font-weight: $font-weight-bold;
   color: $oxford-blue;
 }
 
 h4 {
-  font-size: 16pt;
+  font-size: 16px;
   font-weight: $font-weight-bold;
   color: $oxford-blue;
 }
@@ -92,6 +92,26 @@ h4 {
   color: $status-orange;
 }
 
+// custom accent classes
+.accent-sepia {
+  background-color: $accent-sepia;
+}
+.accent-royal-blue {
+  background-color: $accent-royal-blue;
+}
+.accent-tyrian-purple {
+  background-color: $accent-tyrian-purple;
+}
+.accent-indigo {
+  background-color: $accent-indigo;
+}
+.accent-jungle-green {
+  background-color: $accent-jungle-green;
+}
+.accent-blue-sapphire {
+  background-color: $accent-blue-sapphire;
+}
+
 // buttons
 .btn {
   border-radius: $border-radius !important;
@@ -99,7 +119,7 @@ h4 {
 
 .btn-primary {
   color: $white;
-  font-size: 14pt;
+  font-size: 14px;
   font-weight: $font-weight-bold;
   border: none;
 
@@ -114,7 +134,7 @@ h4 {
 .btn-secondary {
   color: $janitor-blue;
   background-color: $lavender;
-  font-size: 14pt;
+  font-size: 14px;
   font-weight: $font-weight-bold;
   border: none;
 
@@ -129,7 +149,7 @@ h4 {
 
 .btn-success {
   color: $white;
-  font-size: 14pt;
+  font-size: 14px;
   font-weight: $font-weight-bold;
   border: none;
 
@@ -143,7 +163,7 @@ h4 {
 
 .btn-danger {
   color: $white;
-  font-size: 14pt;
+  font-size: 14px;
   font-weight: $font-weight-bold;
   border: none;
 
@@ -218,7 +238,7 @@ input,
 
 // buttons inside input groups
 .input-group button {
-  font-size: 12pt;
+  font-size: 12px;
 }
 
 .input-group i.fas {
