@@ -77,19 +77,24 @@ h4 {
 
 // custom status classes
 .status-red {
-  color: $status-red;
+  color: $white;
+  background-color: $status-red;
 }
 .status-yellow {
-  color: $status-yellow;
+  color: $white;
+  background-color: $status-yellow;
 }
 .status-green {
-  color: $status-green;
+  color: $white;
+  background-color: $status-green;
 }
 .status-blue {
-  color: $status-blue;
+  color: $white;
+  background-color: $status-blue;
 }
 .status-orange {
-  color: $status-orange;
+  color: $white;
+  background-color: $status-orange;
 }
 
 // custom accent classes
