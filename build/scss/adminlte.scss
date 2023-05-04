@@ -36,6 +36,12 @@ $accent-tyrian-purple: #6b0050;
 $accent-indigo: #50006b;
 $accent-jungle-green: #006b6b;
 $accent-blue-sapphire: #00476b;
+$accent-sepia-light: #f2eee6;
+$accent-royal-blue-light: #e6e9f2;
+$accent-tyrian-purple-light: #f2e6ef;
+$accent-indigo-light: #efe6f2;
+$accent-jungle-green-light: #e6f2f2;
+$accent-blue-sapphire-light: #e6eef2;
 
 // action colors
 $action-red: #ca0534;
@@ -99,22 +105,28 @@ h4 {
 
 // custom accent classes
 .accent-sepia {
-  background-color: $accent-sepia;
+  color: $accent-sepia;
+  background-color: $accent-sepia-light;
 }
 .accent-royal-blue {
-  background-color: $accent-royal-blue;
+  color: $accent-royal-blue;
+  background-color: $accent-royal-blue-light;
 }
 .accent-tyrian-purple {
-  background-color: $accent-tyrian-purple;
+  color: $accent-tyrian-purple;
+  background-color: $accent-tyrian-purple-light;
 }
 .accent-indigo {
-  background-color: $accent-indigo;
+  color: $accent-indigo;
+  background-color: $accent-indigo-light;
 }
 .accent-jungle-green {
-  background-color: $accent-jungle-green;
+  color: $accent-jungle-green;
+  background-color: $accent-jungle-green-light;
 }
 .accent-blue-sapphire {
-  background-color: $accent-blue-sapphire;
+  color: $accent-blue-sapphire;
+  background-color: $accent-blue-sapphire-light;
 }
 
 // buttons
